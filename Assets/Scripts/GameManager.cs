@@ -37,7 +37,7 @@ public class GameManager : MonoBehaviour
     private void LoadLevel(int level)
     {
         this.level = level;
-        
+        score = 0;
         if (level > 2)
         {
             SceneManager.LoadScene("WinScene");
